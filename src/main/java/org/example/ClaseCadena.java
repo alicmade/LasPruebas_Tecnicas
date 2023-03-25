@@ -26,13 +26,6 @@ public class ClaseCadena {
             return convertirMayusculas(iniciales);
     }
 
-    /*
-    public boolean EsPalindromo(String cadena) {
-        String cadenaSinEspacios = cadena.replace(" ", "");
-        String cadenaInvertida = new StringBuilder(cadenaSinEspacios).reverse().toString();
-        return cadenaSinEspacios.equalsIgnoreCase(cadenaInvertida);
-    }*/
-
     // trim() elimina los espacios en blanco al principio y al final de la cadena
     public boolean estaVacia(String cadena) {
         return cadena.trim().isEmpty();
